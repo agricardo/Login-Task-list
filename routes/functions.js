@@ -6,11 +6,7 @@ const app = express();
 const products = [
   {
     id: 1,
-    name: 'Bleach'
-  },
-  {
-    id: 2,
-    name: 'One Piece'
+    name: 'Do some code'
   }
 ];
 
