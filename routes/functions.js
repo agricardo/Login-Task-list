@@ -59,7 +59,7 @@ app.delete('/products/:id', (req, res) => {
 });
 
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'auth')));
 
 
 app.listen(app.get('port'), () => {
