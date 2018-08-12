@@ -4,12 +4,18 @@ const morgan = require('morgan');
 const app = express();
 
 const products = [
-  {}
-
+  {
+    id: 1,
+    name: 'Bleach'
+  },
+  {
+    id: 2,
+    name: 'One Piece'
+  }
 ];
 
 
-app.set('port', process.env.PORT || 8200);
+app.set('port', process.env.PORT || 8015);
 
 
 app.use(morgan('dev'));
